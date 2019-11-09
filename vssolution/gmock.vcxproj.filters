@@ -21,9 +21,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(GMOCK_ROOT)\src\gmock_main.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="$(GMOCK_ROOT)\src\gmock-all.cc">
       <Filter>Source Files</Filter>
     </ClCompile>

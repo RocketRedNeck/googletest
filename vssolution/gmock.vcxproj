@@ -20,7 +20,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(GMOCK_ROOT)\src\gmock-all.cc" />
-    <ClCompile Include="$(GMOCK_ROOT)\src\gmock_main.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(GMOCK_ROOT)\include\gmock\gmock-actions.h" />

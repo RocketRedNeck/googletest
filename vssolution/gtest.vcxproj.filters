@@ -95,9 +95,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(GTEST_ROOT)\src\gtest_main.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="$(GTEST_ROOT)\src\gtest-all.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
