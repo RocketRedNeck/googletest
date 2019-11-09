@@ -84,3 +84,5 @@ googlemock/gtest
 /ALL_BUILD.vcxproj
 /googletest/vsproject/Debug
 /googletest/vsproject/x64/Debug
+/vsproject/Debug
+/vsproject/x64/Debug

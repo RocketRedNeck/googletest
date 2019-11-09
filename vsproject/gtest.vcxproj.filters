@@ -24,86 +24,86 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\gtest\gtest.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\gtest.h">
       <Filter>Header Files\gtest</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\gtest_pred_impl.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\gtest_pred_impl.h">
       <Filter>Header Files\gtest</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\gtest_prod.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\gtest_prod.h">
       <Filter>Header Files\gtest</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\gtest-death-test.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\gtest-death-test.h">
       <Filter>Header Files\gtest</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\gtest-matchers.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\gtest-matchers.h">
       <Filter>Header Files\gtest</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\gtest-message.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\gtest-message.h">
       <Filter>Header Files\gtest</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\gtest-param-test.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\gtest-param-test.h">
       <Filter>Header Files\gtest</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\gtest-printers.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\gtest-printers.h">
       <Filter>Header Files\gtest</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\gtest-spi.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\gtest-spi.h">
       <Filter>Header Files\gtest</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\gtest-test-part.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\gtest-test-part.h">
       <Filter>Header Files\gtest</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\gtest-typed-test.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\gtest-typed-test.h">
       <Filter>Header Files\gtest</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\internal\gtest-death-test-internal.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\internal\gtest-death-test-internal.h">
       <Filter>Header Files\gtest\internal</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\internal\gtest-filepath.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\internal\gtest-filepath.h">
       <Filter>Header Files\gtest\internal</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\internal\gtest-internal.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\internal\gtest-internal.h">
       <Filter>Header Files\gtest\internal</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\internal\gtest-param-util.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\internal\gtest-param-util.h">
       <Filter>Header Files\gtest\internal</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\internal\gtest-port.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\internal\gtest-port.h">
       <Filter>Header Files\gtest\internal</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\internal\gtest-port-arch.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\internal\gtest-port-arch.h">
       <Filter>Header Files\gtest\internal</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\internal\gtest-string.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\internal\gtest-string.h">
       <Filter>Header Files\gtest\internal</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\internal\gtest-type-util.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\internal\gtest-type-util.h">
       <Filter>Header Files\gtest\internal</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\internal\custom\gtest.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\internal\custom\gtest.h">
       <Filter>Header Files\gtest\internal\custom</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\internal\custom\gtest-port.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\internal\custom\gtest-port.h">
       <Filter>Header Files\gtest\internal\custom</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\gtest\internal\custom\gtest-printers.h">
+    <ClInclude Include="$(GTEST_ROOT)\include\gtest\internal\custom\gtest-printers.h">
       <Filter>Header Files\gtest\internal\custom</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\gtest-internal-inl.h">
+    <ClInclude Include="$(GTEST_ROOT)\src\gtest-internal-inl.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\gtest_main.cc">
+    <ClCompile Include="$(GTEST_ROOT)\src\gtest_main.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\gtest-all.cc">
+    <ClCompile Include="$(GTEST_ROOT)\src\gtest-all.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\include\gtest\internal\custom\README.md">
+    <None Include="$(GTEST_ROOT)\include\gtest\internal\custom\README.md">
       <Filter>Header Files\gtest\internal\custom</Filter>
     </None>
   </ItemGroup>
