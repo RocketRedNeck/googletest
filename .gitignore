@@ -86,3 +86,7 @@ googlemock/gtest
 /googletest/vsproject/x64/Debug
 /vsproject/Debug
 /vsproject/x64/Debug
+/vssolution/gmock/Win32/Debug
+/vssolution/gmock/x64/Debug
+/vssolution/gtest/Win32/Debug
+/vssolution/gtest/x64/Debug

@@ -91,7 +91,7 @@
       <Filter>Header Files\gtest\internal\custom</Filter>
     </ClInclude>
     <ClInclude Include="$(GTEST_ROOT)\src\gtest-internal-inl.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
