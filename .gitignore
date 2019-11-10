@@ -90,3 +90,7 @@ googlemock/gtest
 /vssolution/gmock/x64/Debug
 /vssolution/gtest/Win32/Debug
 /vssolution/gtest/x64/Debug
+/vssolution/samples/Debug
+/vssolution/samples/x64/Debug
+/vssolution/x64/Debug
+/vssolution/Debug
